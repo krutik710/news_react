@@ -19,10 +19,12 @@ class Header extends Component{
       // title:"Yo man!",
       keywords:""
     }
+    console.log(props);
   }
 
   inputChange(event){
     this.setState({keywords:event.target.value})
+    this.props.newsSearch(event.target.value)
   }
 
   render(){
