@@ -1,0 +1,16 @@
+body{
+  margin: 10;
+}
+
+
+.logo{
+  color: #fff;
+  font-size: 40px;
+  background-color: #000;
+}
+
+.news_item{
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+}
